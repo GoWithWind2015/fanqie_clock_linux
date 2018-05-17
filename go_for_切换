@@ -1,0 +1,4 @@
+#!/bin/bash
+ WID=`xdotool search --name "Go For it!" | head -1`
+xdotool windowfocus $WID
+xdotool key alt+s
